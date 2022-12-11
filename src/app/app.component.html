@@ -1,0 +1,16 @@
+<h1>Digimon</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3" *ngFor="let digimon of digimones">
+      <div class="card card-img-top decoration-img" style="width: 18rem">
+        <img src="{{ digimon.img }}" class="" alt="..." />
+        <div class="card-body decoration-txt">
+          <h5 class="card-title">{{ digimon.name }}</h5>
+          <p class="card-text">
+            {{ digimon.level }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

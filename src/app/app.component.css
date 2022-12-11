@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
+
+* {
+  font-family: "Lobster Two", cursive;
+}
+h1 {
+  text-align: center;
+  margin: 15px auto;
+  border: 3px groove#ffc16e;
+  background-color: #b51d46;
+  color: #fcf5e5;
+  width: 200px;
+  height: auto;
+  border-radius: 80%;
+  padding: 20px;
+}
+.decoration-img {
+  padding: 5px;
+  border: 3px groove #b51d46;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(235, 94, 94, 1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(235, 94, 94, 1);
+  box-shadow: 10px 10px 5px 0px rgba(235, 94, 94, 1);
+}
+.decoration-txt {
+  background-color: #ffc16e;
+}
